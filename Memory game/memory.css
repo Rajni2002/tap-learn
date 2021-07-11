@@ -1,0 +1,13 @@
+
+body{
+    background-color: rgb(215, 173, 228);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.grid{
+    height: 1536px;
+    width: 2048px;
+}

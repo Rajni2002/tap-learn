@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  position: relative;
+  width: 1150px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container .card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: rgb(238, 165, 81);
+  margin: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 25px rgb(49, 48, 48);
+  transition: 0.5s;
+}
+.container .card:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+.container .card .circle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(149, 77, 243);
+  clip-path: circle(180px at center 0);
+  text-align: center;
+}
+.container .card .circle h1 {
+  color: white;
+  font-size: 2em;
+  padding: 30px 0;
+}
+.container .card .content {
+  position: absolute;
+  bottom: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-left: 100px;
+}
+.container .card .content a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(158, 34, 216);
+  color: rgb(255, 255, 255);
+  border-radius: 40px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.container .card:nth-child(2) .circle,
+.container .card:nth-child(2) .circle a{
+  background-color: rgb(58, 144, 58);
+}
+.container .card:nth-child(2) {
+  background-color: rgb(111, 166, 238);
+}
+.container .card:nth-child(3) .circle,
+.container .card:nth-child(3) .circle a{
+  background-color: #da2268;
+}
+.container .card:nth-child(3) {
+  background-color: rgb(233, 192, 80);
+
+}
+.container .card:nth-child(4) .circle,
+.container .card:nth-child(4) .circle a{
+  background-color: #2987f3;
+}
+.container .card:nth-child(4){
+  background-color: rgb(233, 183, 47);
+}
+.container .card:nth-child(5) .circle,
+.container .card:nth-child(5) .circle a{
+  background-color: #2c29f3;
+}
+.container .card:nth-child(5){
+  background-color: rgb(233, 131, 47);
+}
+.container .card:nth-child(6) .circle,
+.container .card:nth-child(6) .circle a{
+  background-color: #207e20;
+}
+.container .card:nth-child(6){
+  background-color: rgb(233, 152, 47);
+}
+
+.container .card:nth-child(7) .circle,
+.container .card:nth-child(7) .circle a{
+  background-color: #207e20;
+}
+.container .card:nth-child(7){
+  background-color: rgb(233, 152, 47);
+}
+.container .card:nth-child(8) .circle,
+.container .card:nth-child(8) .circle a{
+  background-color: #9a40c4;
+}
+.container .card:nth-child(8){
+  background-color: rgb(47, 134, 233);
+}
+.container .card:nth-child(9) .circle,
+.container .card:nth-child(9) .circle a{
+  background-color: #fdb93b;
+}
+.container .card:nth-child(9){
+  background-color: rgb(219, 40, 255);
+}

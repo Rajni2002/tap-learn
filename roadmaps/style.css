@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+*{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.roadmap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 80vw;
+}
+.resources{
+  margin: 10rem 10rem 20rem 10rem;
+  padding: 5rem;
+  border-radius: 50px;
+}
+.resources h1 {
+  font-size: clamp(2rem, 10vw, 5rem);
+  text-transform: uppercase;
+  font-family: "Montserrat Subrayada", sans-serif;
+  letter-spacing: 1rem;
+  text-align: center;
+  /* position: relative; */
+  margin-bottom: 10rem;
+}
+.free,.paid{
+  margin-left: 10rem;
+  font-size: clamp(0rem, 2vw, 5rem);
+}
+.paid{
+  margin-top: 10rem;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: underline;
+  color: black;
+}
+li:hover{
+  background-color: orange;
+  border-radius: 10px;
+}
